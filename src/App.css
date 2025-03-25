@@ -1,31 +1,11 @@
+.safe-area-view {
+  margin-top: 3.25rem;
+}
+
 .container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: red;
   height: 100vh;
-}
-
-.text {
-  color: white;
-  font-size: 24px;
-}
-
-.logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: white;
-  width: 20rem;
-  border-radius: 2rem;
-}
-
-/* .logo {
-  background-color: blue;
-} */
-
-.logo * {
-  font-size: 4rem;
-  text-align: center;
+  background-color: red;
+  padding: 1rem;
 }
