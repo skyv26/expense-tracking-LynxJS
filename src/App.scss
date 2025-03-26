@@ -1,0 +1,59 @@
+.safe-area-view {
+  margin-top: 3.25rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 1rem;
+}
+
+.expense-overview-card {
+  padding: 1.5rem;
+  border-radius: 1.2rem;
+  background: rgb(99, 102, 241);
+  background: linear-gradient(
+    90deg,
+    rgba(99, 102, 241, 1) 0%,
+    rgba(129, 140, 248, 1) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+
+  .text {
+    font-size: 1.25rem;
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  .balance {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+  }
+
+  .percentage {
+    padding: 2px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+}
+
+.percentage {
+  * {
+    font-size: 1.25rem;
+
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .percentage-text text {
+    color: #34d399;
+    border-radius: 5rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: max-content;
+    padding: 0.5rem 0.8rem;
+  }
+}
