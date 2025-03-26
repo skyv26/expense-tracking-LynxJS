@@ -10,7 +10,10 @@
     "preview": "rspeedy preview"
   },
   "dependencies": {
-    "@lynx-js/react": "^0.106.1"
+    "@lynx-js/react": "^0.106.1",
+    "@rsbuild/plugin-sass": "^1.2.2",
+    "lucide-react": "^0.484.0",
+    "react-router": "6"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
