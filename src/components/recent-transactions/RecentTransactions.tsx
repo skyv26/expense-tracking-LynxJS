@@ -2,7 +2,8 @@ import './RecentTransaction.scss';
 import { useNavigate } from 'react-router';
 import ShoppingBag from '../../assets/shopping-bag.png';
 import CarTaxiIcon from '../../assets/car-taxi-front.png';
-
+import Clapperboard from '../../assets/clapperboard.png';
+import ShoppingCart from '../../assets/shopping-cart.png'
 // import TransactionList from "./transaction-list/TransactionList.jsx";
 
 export default function RecentTransactions() {
@@ -97,32 +98,32 @@ export default function RecentTransactions() {
           key={'3'}
           item-key="3"
           style={{
-            borderLeftColor: '#8A4FFF',
+            borderLeftColor: '#FF9500',
           }}
         >
           <view
             className="item-icon"
             style={{
-              backgroundColor: 'hsla(260, 100%, 65%, 0.125)',
+              backgroundColor: 'hsla(35, 100%, 50%, 0.125)',
             }}
           >
-            <image src={ShoppingBag} />
+            <image src={ShoppingCart} />
           </view>
           <view className="item-detail">
             <view className="item-info">
-              <text className="item-name">Amazon Purchase</text>
-              <text className="item-price">-$24.50</text>
+              <text className="item-name">Grocery Shopping</text>
+              <text className="item-price">-$89.75</text>
             </view>
             <view className="item-amount">
-              <text className="item-date">Today, 2:30pm</text>
+              <text className="item-date">Today, 10:30pm</text>
               <text
                 className="item-tag"
                 style={{
-                  color: '#8A4FFF',
-                  backgroundColor: 'hsla(260, 100%, 65%, 0.14)',
+                  color: '#FF9500',
+                  backgroundColor: 'hsla(35, 100%, 50%, 0.14)',
                 }}
               >
-                Shopping
+                Food
               </text>
             </view>
           </view>
@@ -131,32 +132,32 @@ export default function RecentTransactions() {
           key={'4'}
           item-key="4"
           style={{
-            borderLeftColor: '#8A4FFF',
+            borderLeftColor: '#FF2D55',
           }}
         >
           <view
             className="item-icon"
             style={{
-              backgroundColor: 'hsla(260, 100%, 65%, 0.125)',
+              backgroundColor: 'hsla(359, 100%, 59%, 0.125)',
             }}
           >
-            <image src={ShoppingBag} />
+            <image src={Clapperboard} />
           </view>
           <view className="item-detail">
             <view className="item-info">
-              <text className="item-name">Amazon Purchase</text>
-              <text className="item-price">-$24.50</text>
+              <text className="item-name">Netflix Subscription</text>
+              <text className="item-price">-$15.50</text>
             </view>
             <view className="item-amount">
-              <text className="item-date">Today, 2:30pm</text>
+              <text className="item-date">Yesterday</text>
               <text
                 className="item-tag"
                 style={{
-                  color: '#8A4FFF',
-                  backgroundColor: 'hsla(260, 100%, 65%, 0.14)',
+                  color: '#FF2D55',
+                  backgroundColor: 'hsla(359, 100%, 59%, 0.14)',
                 }}
               >
-                Shopping
+                Entertainment
               </text>
             </view>
           </view>
