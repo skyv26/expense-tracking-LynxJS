@@ -1,9 +1,11 @@
-import './AppHeader.css';
+import './AppHeader.scss';
 import Bell from '../../assets/bell.png';
 
 export default function AppHeader() {
   return (
-    <view className="header">
+    <view className="header"
+    flatten={false}
+    >
       <view className="header-text">
         <text className="welcome-user">Hello, Aakash</text>
         <text className="welcome-message">Your finances look great!</text>

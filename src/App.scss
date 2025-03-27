@@ -1,12 +1,23 @@
+.app {
+  height: 100vh;
+  background-color: white;
+}
+
 .safe-area-view {
   margin-top: 3.25rem;
+}
+
+.master-scroll {
+  width: 100%;
+  height: 100%;
+
 }
 
 .container {
   display: flex;
   flex-direction: column;
-  height: 100vh;
-  padding: 1rem;
+  gap: 1rem;
+  padding: 0 1rem;
 }
 
 .expense-overview-card {
@@ -55,5 +66,23 @@
     background-color: rgba(255, 255, 255, 0.1);
     width: max-content;
     padding: 0.5rem 0.8rem;
+  }
+}
+
+.add-expense-btn-wrapper {
+  margin: 4rem 0;
+  .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+    background: rgb(99, 102, 241);
+    font-weight: 700;
+    border-radius: 0.5rem;
+    * {
+      font-size: 1.25rem;
+      color: white;
+    }
   }
 }
